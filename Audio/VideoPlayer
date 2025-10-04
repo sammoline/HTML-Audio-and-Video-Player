@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel’s Media Player</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f8fa;
+      color: #333;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #0b5394;
+      margin-bottom: 40px;
+    }
+
+    section {
+      margin-bottom: 60px;
+      background: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #1a5276;
+      margin-bottom: 15px;
+    }
+
+    video, audio {
+      border-radius: 10px;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎬 Samuel’s Mini Media Player</h1>
+
+  <!-- First Section: Video -->
+  <section>
+    <h2>Exploring the Map Method in JavaScript</h2>
+    <video controls width="640">
+      <source src="https://cdn.freecodecamp.org/curriculum/labs/What%20is%20the%20map%20method%20and%20how%20does%20it%20work.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Second Section: Audio -->
+  <section>
+    <h2>Now Playing: We Are Going To Make It 🎵</h2>
+    <audio controls loop 
+      src="https://cdn.freecodecamp.org/curriculum/js-music-player/we-are-going-to-make-it.mp3">
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+
+</body>
+</html>
